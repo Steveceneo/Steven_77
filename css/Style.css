@@ -1,0 +1,168 @@
+body {
+	height: 0;
+	margin: 0;
+	font-family: Montserrat,  sans-serif;
+}
+
+
+.navbar{
+	padding: 40px;
+	width: 300px;
+	height: 5px;
+	background-color: white;
+
+	
+}
+
+
+img{
+	width: 150px;
+	text-align: left;
+	margin-left: -15px;
+	margin-top: -22px;
+}
+
+
+.slog{
+	background-image:linear-gradient(#1e814b,#124429);
+	padding-top: 100px;
+	padding-bottom: 100px;
+	position: relative;
+	font-size: 12px;
+	color: white;
+	line-height: 50px;
+	width: 100%;
+}
+
+input{
+	padding: 11px;
+	width: 300px;
+	height: 20px;
+	font-size: 20px;
+	font-family: Dosis, sans-serif;
+	border-radius:3px;
+	margin-left: 50px;
+	border:none;
+	position: relative;
+}
+
+
+label{
+	margin-left: 50px;
+	font-size: 15px;
+	font-family: montserrat, Dosis, sans-serif;
+}
+
+.slog h1{
+	margin-left: 50px;
+	font-size: 25px;
+	font-family: montserrat, Dosis, sans-serif;
+  font-weight: bolder;
+  line-height: 1.2;
+}
+
+.text-info {
+	padding-left: 20px;
+}
+.b{
+ background-color: #1e814b;
+color: white;
+margin-top: 8px;
+text-align: center;
+font-size: 15px;
+margin-left: 50px;
+margin-top: 40px;
+border-radius: 5px;
+border:none;
+font-family: montserrat, Dosis, sans-serif;
+padding: 11px;
+height: 50px;
+font-weight: 900;
+width: 325px;
+box-shadow: 0px 5px 6px rgba(7, 7, 7, 0.356);
+}
+
+.info{
+	background-color: white;
+	color: black;
+	font-family: montserrat, Avenir;
+	margin-bottom: 0px;
+}
+
+p{
+	margin: 0px;
+	padding: 5px;
+	font-family: sans-serif;
+	font-size: 15px;
+  font-weight: 200;
+	line-height: 15px;
+}
+
+a{
+	color: green;
+	font-family: sans-serif;
+  font-variant: small-caps;
+  margin-bottom: 110px;
+}
+
+.suite{
+	background-color: white;
+	margin: auto;
+	font-family: montserrat, Avenir;
+	margin-top: -10px;
+}
+
+
+
+.y{
+	height: 62px;
+	width: 62px;
+	border-radius:3px;
+	font-size: 20px;
+	text-align: center;
+	font-family: montserrat, Dosis, sans-serif;
+	font-weight: bolder;
+	margin: -1px;
+	border:none;	
+	background-color: white;
+	color:black;
+}
+
+.car{
+	position: relative;
+	margin-left: 50px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+
+footer{
+	background-color: #1e814b;
+	height: 150px;
+	padding: 10px;
+}
+
+.footer p {
+	font-family: montserrat, sans-serif;
+	align-items: center;
+	color: #fff;
+}
+
+
+
+.footer-head {
+	align-items: center;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 7px;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+

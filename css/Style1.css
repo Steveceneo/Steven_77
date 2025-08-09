@@ -1,0 +1,314 @@
+body {
+    width: 100%;
+    font-family: Montserrat, helvetica, Arial;
+    margin: 0px;
+    background-color: #dcdfe6;
+}
+
+.bar-logo {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    box-shadow: 2px 1px 2px gray;
+    margin: auto;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding-left: 20px;
+}
+
+
+.link2{
+ border-radius: 30px;
+  background-color: #b30707;
+  color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    text-transform: uppercase;
+    height: 50px;
+    box-sizing: border-box;
+    touch-action: manipulation;
+    overflow: visible;
+    outline: none !important;
+    border: none;
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.link3{
+ border-radius: 30px;
+  background-color: #1e814b;
+  color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    text-transform: uppercase;
+    height: 50px;
+    box-sizing: border-box;
+    touch-action: manipulation;
+    overflow: visible;
+    outline: none !important;
+    border: none;
+    width: 250px;
+    margin: auto;
+}
+
+
+
+.link2:hover {
+    opacity: 0.8;
+}
+
+.top-bar {
+  background-color: #1e814b;
+  font-family: montserrat-bold, sans-serif, Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: #e3fff1;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 100%;
+
+}
+
+.space {
+    color: white;
+    background-image:linear-gradient(#333333,#000);
+    margin-top: 70px;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 5px 0px 5px 30px;
+    
+}
+
+
+.logo {
+    width: 150px;
+    padding: 10px;
+}
+
+.solde {
+    font-family:montserrat;
+    width: 90%;
+    position: relative;
+    margin: auto;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.solde p{
+    margin: 8px 4px 8px 0px;
+}
+
+.Nom{
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.Nom span{
+    color: #1e814b;
+}
+
+/*texte blink (clignote)*/
+
+.blink {
+    font-family: Montserrat;
+    animation: blink 2s steps(1, end) infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.blink {
+    background-color: #ebf0fc;
+    color: red;
+    width: 200px;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 2px;
+}
+
+.T {
+    width: 180px;
+    margin: auto;
+    text-align: center;
+    font-size: 11px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: #1e814b;
+    padding: 14px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.T:hover{
+    opacity: 0.8;
+}
+
+.liquid {
+    width: 350px;
+    margin: auto;
+    font-size: 15px;
+    border-radius: 2px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.liquid p {
+    color: gray;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.cour {
+    width: 350px;
+    margin: auto;
+    font-size: 15px;
+    border-radius: 2px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.flo {
+    float: right;
+}
+
+/*.list{
+	width: 350px;
+	margin: auto;
+	font-size: 12px;
+	border-radius: 2px;
+	background-color: white;
+	padding: 10px;
+	white-space:nowrap;
+	margin-top: 25px;
+}
+
+.list table{
+	margin: auto;
+	width: 200px;
+	border-collapse: ;
+	
+}
+
+table tr td {
+	padding: 15px;
+	background-color: gr;
+	border: 1px solid gray;
+}
+
+table{
+	border-collapse: ;
+	border-spacing: 0px 0px;
+}
+
+td{
+	border: 6px solid solid;
+}*/
+
+
+table tr td {
+    padding: 15px;
+    border: 2px solid #dcdfe6;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    
+}
+
+.name{
+    margin-bottom: 0px;
+    color: #1e814b;
+}
+
+.job{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    margin: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tr1{
+    background-color: #1e814b;
+    color: #FFF;
+    font-weight: BOLD;
+    font-size: 19px;
+}
+
+#iconic {
+    float: right;
+}
+
+
+.info {
+    width: 350px;
+    margin: auto;
+    font-size: 12px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    white-space: nowrap;
+    margin-top: 25px;
+}
+
+.info img {
+    width: 150px;
+}
+
+input {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 2em;
+    font-size: 18px;
+    outline: none;
+    border-radius: 0px
+}
+
+.solde button {
+    width: 80%;
+    background-color: green;
+    padding: 1em;
+    transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: 2px font-size:20px
+}
